@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 
 from WeatherInformer.src.GUI.widget_factorys import LightThemeFactory, DarkThemeFactory, AWidgetFactory
-from WeatherInformer.src.WeatherModel import WeatherView
-from WeatherInformer.src.WeatherModel import WeatherData
+from WeatherInformer.src.weather_model import WeatherView
+from WeatherInformer.src.weather_model import WeatherData
 
 # Главное приложение
 class WeatherApp:
